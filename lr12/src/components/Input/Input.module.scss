@@ -1,0 +1,37 @@
+.input {
+
+    background: white;
+
+    &__inner {
+        padding: 20px 0 20px 26px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        input {
+            border: none;
+            color: #49627E;
+            width: 100px;
+            font-feature-settings: 'clig'off, 'liga'off;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.after {
+    color: #49627E;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

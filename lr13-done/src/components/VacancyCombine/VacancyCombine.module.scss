@@ -1,0 +1,23 @@
+.vacancyCombine {
+
+    margin-bottom: 100px;
+
+
+    &__inner {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__list {
+
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        width: 460px;
+    }
+
+    &__page {
+        max-width: 660px;
+    }
+}

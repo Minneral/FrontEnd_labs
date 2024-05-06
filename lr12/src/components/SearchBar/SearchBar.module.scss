@@ -1,0 +1,42 @@
+.searchbar {
+
+    margin-bottom: 40px;
+
+    &__inner {
+        display: flex
+    }
+
+    &__item {
+        flex-grow: 1;
+
+    }
+
+    &__btn {
+        flex-grow: 0;
+        input {
+            color: #FFF;
+            font-feature-settings: 'clig'off, 'liga'off;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            cursor: pointer;
+
+            border-radius: 0px 10px 10px 0px;
+            border: none;
+            background: #0070FB;
+
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: 1440px)
+{
+
+}
+
+@media (max-width: 834px) {
+    
+}

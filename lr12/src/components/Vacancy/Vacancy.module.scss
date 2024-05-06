@@ -1,0 +1,129 @@
+.vacancy {
+    background-color: #fff;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+    cursor: pointer;
+
+    &__inner {
+        display: flex;
+        min-height: 130px;
+        padding: 20px 20px 8px 20px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 16px;
+    }
+
+    &__company {
+        color: #9AAAB5;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__position {
+        color: #000;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__city {
+        color: #9AAAB5;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__flags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+
+        padding-top: 5px;
+    }
+
+    &__flag {
+        padding: 5px 8px;
+        border-radius: 4px;
+        background: #F7F8F9;
+
+        color: #95A5B2;
+        text-align: center;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Montserrat;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__meta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        margin-left: auto;
+        padding-left: 16px;
+    }
+
+    &__favorite {
+        cursor: pointer;
+    }
+
+    &__date {
+        color: #A1AEB9;
+        text-align: center;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Montserrat;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__img {
+        position: relative;
+        cursor: pointer;
+
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &.selected::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 10px;
+        background-color: #0070FB;
+    }
+}
+
+.placeholder {
+    display: block;
+    width: 68px;
+    height: 50px;
+    border-radius: 10px;
+    background: #F7F8F9;
+}

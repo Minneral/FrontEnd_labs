@@ -1,0 +1,36 @@
+.header {
+    padding: 20px 0;
+    background-color: rgb(160, 160, 160);
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 40px;
+}
+
+.header__logo img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.header__nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color .1s ease;
+}
+
+.header__nav a:hover {
+    color: burlywood;
+}

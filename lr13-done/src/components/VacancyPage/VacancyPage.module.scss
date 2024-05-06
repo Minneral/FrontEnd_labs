@@ -1,0 +1,103 @@
+.vacancyPage {
+    background-color: #fff;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        &_logo {
+            width: 130px;
+            height: 84px;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        &_upper {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        &_info {
+            display: flex;
+            flex-direction: column;
+            gap: 8px
+        }
+
+        &_position {
+            color: #000;
+            font-feature-settings: 'clig'off, 'liga'off;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &_company_city {
+            display: flex;
+
+            color: #9AAAB5;
+            font-feature-settings: 'clig'off, 'liga'off;
+            font-family: Montserrat;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &_company {
+            padding-right: 10px;
+        }
+
+        &_city {
+            padding-left: 10px;
+            border-left: 1px solid #9AAAB5;
+        }
+
+        &_lower {
+            color: #000;
+            font-feature-settings: 'clig'off, 'liga'off;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            padding-bottom: 35px;
+            border-bottom: 2px solid #F9F9F9;
+        }
+    }
+
+    &__content {
+        padding-top: 30px;
+
+        color: #000;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+}
+
+.placeholder {
+    display: block;
+    width: 130px;
+    height: 84px;
+    border-radius: 10px;
+    background: #F7F8F9;
+}

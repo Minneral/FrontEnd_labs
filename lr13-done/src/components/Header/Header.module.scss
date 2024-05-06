@@ -1,0 +1,32 @@
+.header {
+    background: #FFF;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.03);
+    margin-bottom: 40px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    padding: 27px 0;
+    gap: 130px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 90px;
+
+    &_link {
+        color: #6B8397;
+        text-decoration: none;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.active {
+    color: #0070FB;
+}
